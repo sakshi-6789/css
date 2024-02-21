@@ -1,0 +1,41 @@
+body{
+    background-color: #56cbcd;
+}
+
+div{
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after{
+    content: "this is a media qurey demo page";
+    
+}
+
+@media  (max-width: 1440px){
+    body{
+        background-color: green;
+    }
+
+    }
+
+    @media  (max-width: 1024px){
+        body{
+            background-color: brown;
+        }
+    
+        }
+
+        @media  (max-width: 768px){
+            body{
+                background-color: palevioletred;
+            }
+        
+            }
+
+            @media  (max-width: 425px){
+                body{
+                    background-color: olive;
+                }
+            
+                }
